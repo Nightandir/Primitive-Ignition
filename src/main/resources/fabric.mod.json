@@ -1,0 +1,20 @@
+{
+  "schemaVersion": 1,
+  "id": "primitive_ignition",
+  "version": "${version}",
+  "name": "Primitive Ignition",
+  "description": "Requires manual ignition of vanilla furnaces, blast furnaces, and smokers using vanilla flint and steel.",
+  "authors": ["Nightandir"],
+  "license": "MIT",
+  "environment": "*",
+  "entrypoints": {
+    "main": ["com.nightandir.primitiveignition.PrimitiveIgnition"]
+  },
+  "mixins": ["primitive_ignition.mixins.json"],
+  "depends": {
+    "fabricloader": ">=0.18.1",
+    "minecraft": "~1.21.11",
+    "java": ">=21",
+    "fabric-api": "*"
+  }
+}
